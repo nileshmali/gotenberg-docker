@@ -1,0 +1,1 @@
+# Custom docker image with fonts for https://gotenberg.dev
