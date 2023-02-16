@@ -24,3 +24,8 @@ jobs:
           container: gotenberg-docker
           dry-run: false # Dry-run first, then change to `false`
           prune-untagged: true
+          keep-tags-regexes: |
+            v$
+            nightly$
+            main$
+            latest$
